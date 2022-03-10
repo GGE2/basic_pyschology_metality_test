@@ -1,1 +1,1 @@
-Clone 심리테스트 앱 with Kotlin
+Clone pyschology mentality test app with Kotlin
