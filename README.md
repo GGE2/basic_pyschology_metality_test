@@ -1,1 +1,1 @@
-"# basic_pyschology_metality_test" 
+Clone 심리테스트 앱 with Kotlin
