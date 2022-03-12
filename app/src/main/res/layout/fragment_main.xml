@@ -16,29 +16,31 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/main_title"
         android:textColor="@color/white"
-        android:textSize="32dp"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="400dp"
-        android:layout_height="350dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="349dp"
+        android:layout_height="490dp"
+        android:layout_marginTop="176dp"
         android:src="@drawable/main_img"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageView
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginTop="144dp"
         android:src="@drawable/next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
