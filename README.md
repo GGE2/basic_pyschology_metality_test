@@ -1,1 +1,1 @@
-"# basic_pyschology_metality_test" 
+Clone pyschology mentality test app with Kotlin
